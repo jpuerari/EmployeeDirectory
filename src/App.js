@@ -6,8 +6,9 @@ import { render } from '@testing-library/react';
 class App extends Component {
   state = {
     employees : [
-      {name: "Joseph Ferrari", position: "CEO of Translations LLC", role: "Founder of company" },
-      {name: "Jaclyn Doe", position: "Director of Translation", role: "In charge of all the translation projects" },
+      {name: "Valentino Ferrari", position: "CEO of Translations LLC", role: "Founder of company" },
+      {name: "Jacques L'Hereaux", position: "Director", role: "Director of company operations" },
+      {name: "Martín García-Pérez", position: "Translation Project Manager", role: "Senior Project Manager" },
     ],
     searchName: ""
   }
